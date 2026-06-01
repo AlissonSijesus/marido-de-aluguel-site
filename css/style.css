@@ -1,0 +1,141 @@
+
+    .instagram-btn{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:linear-gradient(
+        45deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+    );
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    text-decoration:none;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.instagram-btn:hover{
+    transform:scale(1.1);
+    color:white;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar{
+    background:#0d6efd;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd');
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.section-title{
+    font-weight:700;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.service-card{
+    transition:.3s;
+    border:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.service-icon{
+    font-size:3rem;
+    color:#0d6efd;
+}
+
+.benefits{
+    background:#f8f9fa;
+}
+
+.testimonial{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-section{
+    background:#0d6efd;
+    color:white;
+}
+
+.contact-icon{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.footer{
+    background:#212529;
+    color:white;
+    padding:20px;
+}
+
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    text-decoration:none;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+.social-tooltip{
+    position:absolute;
+    right:75px;
+    background:#222;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:5px;
+    font-size:14px;
+    opacity:0;
+    transition:.3s;
+    white-space:nowrap;
+}
+
+.instagram-btn:hover .social-tooltip,
+.whatsapp-btn:hover .social-tooltip{
+    opacity:1;
+}
